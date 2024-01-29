@@ -1,15 +1,20 @@
 In this project, there are three roles: guest, customer, and admin. In the guest pages, products are displayed but cannot be added to the cart. In the customer role, products can be added to the cart, and the profile page is accessible. The admin role allows for dropping, updating, and adding product information. Additionally, admins can view graphs of sales.
 # Getting Started with Create React App
 
-Setup:
-In the project directory, you can run:
+To set up a React project, you can follow these steps:
 
-### `npm start`
+Node.js and npm: Make sure you have Node.js and npm installed on your system. You can download and install them from the Node.js official website.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Create React App: The easiest way to set up a new React project is by using Create React App. Open your terminal and run the following command to install it globally:
+npm install -g create-react-app
+Create a New Project: Once Create React App is installed, navigate to the directory where you want to create your new React project and run the following command:npx create-react-app my-react-app
+Replace my-react-app with the name of your project.
 
-The page will reload when you make changes.\
+Navigate to Project Directory: After the project is created, navigate to your project directory:cd my-react-app
+npm start
+This command will start a development server and open your React app in your default web browser. You can start coding your React components in the src directory.npm run build
+Version Control with Git: Initialize a git repository in your project directory to track changes:git init
+
 
 Guest Page:
 ![image](https://github.com/runtime-error786/Electronic-e-commerce-website/assets/123109871/94e5eca2-3dcb-41b0-8353-54cf3a4192d0)
